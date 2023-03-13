@@ -1,7 +1,7 @@
 from datetime import datetime
 import socket
 
-server_address = ('localhost', 6789)
+address = ('localhost', 6789)
 max_size = 1000
 
 print('Starting the server at', datetime.now())
